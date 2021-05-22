@@ -4,7 +4,7 @@ on:
   schedule:
     # These hours are in UTC. i.e. result in a different local time in Germany,
     # either +1 hour (winter) or +2 hours (summer).
-    - cron: "0 0,8,12,15,20 * * *"
+    # m- cron: "0 0,8,12,15,20 * * *"
 
 jobs:
   scheduled-data-update:
